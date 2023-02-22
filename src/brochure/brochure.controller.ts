@@ -22,6 +22,7 @@ export class BrochureController {
 
   @Post()
   create(@Body() createBrochureDto: CreateBrochureDto) {
+    //test
     return this.brochureService.create(createBrochureDto);
   }
 
