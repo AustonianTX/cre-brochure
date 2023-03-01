@@ -19,6 +19,8 @@ export class BrochureService {
 
     console.log(aiPrompt);
 
+    console.log('stuff is cool')
+
     const completion = await this.openai.createCompletion({
       model: 'text-davinci-003',
       prompt: aiPrompt,
